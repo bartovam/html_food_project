@@ -1,0 +1,55 @@
+:root {
+    --btn-background-primary: #2b801b;
+    --btn-border-color-primary: var(--btn-background-primary);
+
+    --btn-background-secondary: #406a80;
+    --btn-border-color-secondary: var(--btn-background-secondary);
+
+    --btn-background-warning: #800b09;
+    --btn-border-color-warning: var(--btn-background-warning);
+
+    --btn-background-success: #80680e;
+    --btn-border-color-success: var(--btn-background-success);
+
+}
+
+.img-text {
+    width: 50%;
+    float: left;
+    padding: 7px 16px 8px 0;
+}
+
+.text-primary {
+    color: black!important;
+}
+
+.btn {
+    padding: 4px 16px 4px 16px;
+    border: 1px solid;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.btn-primary {
+    background: var(--btn-background-primary);
+    border-color: var(--btn-border-color-primary);
+}
+
+.btn-secondary {
+    background: var(--btn-background-secondary);
+    border-color: var(--btn-background-secondary);
+}
+
+.btn-warning {
+    background: var(--btn-background-warning);
+    border-color: var(--btn-background-warning);
+}
+
+.btn-success {
+    background: var(--btn-background-success);
+    border-color: var(--btn-background-success);
+}
+
+
